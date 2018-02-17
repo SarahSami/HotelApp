@@ -42,6 +42,7 @@ public class ImageLoader {
     private void queueJob(final String url, final ImageView imageView, final Drawable placeholder) {
 
 
+
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
@@ -78,7 +79,7 @@ public class ImageLoader {
     }
 
 
-//TODO handler should be here to avoid memory leaks!
+//TODO handler should be static class to avoid memory leaks but handleMessage() never called
 
 //    private static class HandlerMessage extends Handler {
 //        private ImageView imageView;

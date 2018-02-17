@@ -54,6 +54,7 @@ public class HotelsAdapter extends RecyclerView.Adapter<HotelsAdapter.ViewHolder
     public void onBindViewHolder(ViewHolder holder, final int position) {
         final Hotel item = items.get(position);
         holder.hotelNameTv.setText("" + item.getTitle());
+        //todo problem in images position while scroll
         imageLoader.loadDrawable(item.getMedia(), holder.imageView, holder.imageView.getDrawable());
     }
 
