@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">hotelsApp</string>
+    <string name="error_network">An error occurred, try again later</string>
+    <string name="hotelId">hotel ID: </string>
+    <string name="vrn">VRN: </string>
+    <string name="country">Country: </string>
+    <string name="color">Color: </string>
+    <string name="type">Type: </string>
+
+</resources>
